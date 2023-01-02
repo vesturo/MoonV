@@ -1,0 +1,3 @@
+client-files = [ 'client.mjs', 'helptext-streamer.mjs' ]
+client-main = 'client.mjs'
+type = 'js'

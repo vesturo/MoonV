@@ -1,0 +1,3 @@
+client-files = [ 'client.mjs', 'textlabel-streamer.mjs' ]
+client-main = 'client.mjs'
+type = 'js'

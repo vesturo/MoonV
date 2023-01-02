@@ -1,0 +1,4 @@
+client-files = []
+client-main = 'index.js'
+main = 'DiscordBot.dll'
+type = 'csharp'

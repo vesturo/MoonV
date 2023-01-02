@@ -1,0 +1,105 @@
+D:\GitLab space\muchrp\Server\resources\roleplay\discordbot\DiscordBot.deps.json
+D:\GitLab space\muchrp\Server\resources\roleplay\discordbot\DiscordBot.runtimeconfig.json
+D:\GitLab space\muchrp\Server\resources\roleplay\discordbot\DiscordBot.runtimeconfig.dev.json
+D:\GitLab space\muchrp\Server\resources\roleplay\discordbot\DiscordBot.dll
+D:\GitLab space\muchrp\Server\resources\roleplay\discordbot\DiscordBot.pdb
+D:\GitLab space\muchrp\Server\resources\discordbot\DiscordBot.deps.json
+D:\GitLab space\muchrp\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+D:\GitLab space\muchrp\Server\resources\discordbot\DiscordBot.runtimeconfig.dev.json
+D:\GitLab space\muchrp\Server\resources\discordbot\DiscordBot.dll
+D:\GitLab space\muchrp\Server\resources\discordbot\DiscordBot.pdb
+D:\GitLab space\muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+D:\GitLab space\muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+D:\GitLab space\muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+D:\GitLab space\muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+D:\GitLab space\muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+D:\GitLab space\muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csprojAssemblyReference.cache
+C:\Users\hiruk\Desktop\Sa-Muchrp\Server\resources\discordbot\DiscordBot.deps.json
+C:\Users\hiruk\Desktop\Sa-Muchrp\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+C:\Users\hiruk\Desktop\Sa-Muchrp\Server\resources\discordbot\DiscordBot.dll
+C:\Users\hiruk\Desktop\Sa-Muchrp\Server\resources\discordbot\DiscordBot.pdb
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.AssemblyReference.cache
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\refint\DiscordBot.dll
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.genruntimeconfig.cache
+C:\Users\hiruk\Desktop\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\ref\DiscordBot.dll
+C:\SA-Market\Sa-Muchrp\Server\resources\discordbot\DiscordBot.deps.json
+C:\SA-Market\Sa-Muchrp\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+C:\SA-Market\Sa-Muchrp\Server\resources\discordbot\DiscordBot.dll
+C:\SA-Market\Sa-Muchrp\Server\resources\discordbot\DiscordBot.pdb
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.AssemblyReference.cache
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\refint\DiscordBot.dll
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\DiscordBot.genruntimeconfig.cache
+C:\SA-Market\Sa-Muchrp\Mappe\DiscordBot\obj\Debug\ref\DiscordBot.dll
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Server\resources\discordbot\DiscordBot.deps.json
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Server\resources\discordbot\DiscordBot.dll
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Server\resources\discordbot\ref\DiscordBot.dll
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Server\resources\discordbot\DiscordBot.pdb
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\ref\DiscordBot.dll
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Desktop\[SA-Development]\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.genruntimeconfig.cache
+C:\Users\Alex\Desktop\MoonV\Server\resources\discordbot\DiscordBot.deps.json
+C:\Users\Alex\Desktop\MoonV\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+C:\Users\Alex\Desktop\MoonV\Server\resources\discordbot\DiscordBot.dll
+C:\Users\Alex\Desktop\MoonV\Server\resources\discordbot\DiscordBot.pdb
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\ref\DiscordBot.dll
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.genruntimeconfig.cache
+C:\Users\Alex\Desktop\MoonV\Mappe\DiscordBot\obj\Debug\refint\DiscordBot.dll
+C:\Users\Alex\Desktop\SA-Development\MoonV\Server\resources\discordbot\DiscordBot.deps.json
+C:\Users\Alex\Desktop\SA-Development\MoonV\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+C:\Users\Alex\Desktop\SA-Development\MoonV\Server\resources\discordbot\DiscordBot.dll
+C:\Users\Alex\Desktop\SA-Development\MoonV\Server\resources\discordbot\DiscordBot.pdb
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\refint\DiscordBot.dll
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.genruntimeconfig.cache
+C:\Users\Alex\Desktop\SA-Development\MoonV\Mappe\DiscordBot\obj\Debug\ref\DiscordBot.dll
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Server\resources\discordbot\DiscordBot.deps.json
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Server\resources\discordbot\DiscordBot.runtimeconfig.json
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Server\resources\discordbot\DiscordBot.dll
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Server\resources\discordbot\DiscordBot.pdb
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.AssemblyInfo.cs
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.dll
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\refint\DiscordBot.dll
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\DiscordBot.genruntimeconfig.cache
+C:\Users\alexa\Desktop\SA-Developement\MoonV\Mappe\DiscordBot\obj\Debug\ref\DiscordBot.dll

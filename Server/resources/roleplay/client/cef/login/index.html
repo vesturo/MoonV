@@ -1,0 +1,223 @@
+﻿<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+    <link rel="stylesheet" href="style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+</head>
+
+<body>
+    <div id="loginBox" class="box">
+		<div id="error" style="display: none;">
+			<div id="main">
+				<div id="main_bg"></div>
+			</div>
+
+			<div id="text">
+				<p id="main_text">
+					Der Benutzername muss mindestens drei Zeiche
+				</p>
+			</div>
+
+			<div id="icon">
+				<div id="icon_bg"></div>
+				<img src="./img/icon_bg_bild.png" id="icon_bg_bild"/>
+			</div>
+		</div>
+        <div class="auth">
+            <main class="rest-page">
+            </main>
+            <main class="loadmain load-page loading load-pages">
+                <div class="loadersbg"></div>
+                <div class="loaders"></div>
+            </main>
+            <main class="auth-page">
+                <div class="authblock" style="filter: blur(2vw)"></div>
+                <div class="authblock">
+                    <span>Anmeldung</span>
+					<div id="changepassword" class="btnchange js-btn-auth" onclick="showArea(3);"><i class="fas fa-key"></i></div>
+                    <form id="auth-form" action="" method="POST">
+                        <input class="login1" placeholder="Benutzername" name="entry-login" id="username" type="text" required>
+                        <input class="pass1" placeholder="Passwort" id="password" name="entry-password" type="password" required>
+                        <div id="loginBtn" class="btngo js-btn-auth">Einloggen</div>
+                        <a>Keinen Account?<b class="btngoreg js-btn-register" onclick="showArea(0);">Registrieren</b></a>
+                    </form>
+                </div>
+            </main>
+            <main class="reg-page">
+                <div class="regblock">
+                    <span>Registrierung</span>
+                    <form id="reg-form" action="" method="POST">
+                        <input class="login1" placeholder="Benutzername" type="text" name="new-user__login" id="registername" required>
+                        <input class="pass1" placeholder="Passwort" type="password" name="new-user__pw" id="registerpassword" required>
+                        <input style="margin-top: 3vw;" class="pass1" placeholder="Passwort wiederholen" type="password" name="new-user__pw-repeat" id="registerpasswordrepeat" required>
+                        <input style="margin-top: 6vw;" class="pass1" placeholder="Alphakey" type="text" name="new-user__promo-code" id="registeralphakey" required>
+                        <div id="registerBtn" class="btngo btn-register-end">Konto erstellen</div>
+                        <a>Bereits ein Konto?<b class="goauth js-btn-back" onclick="showArea(1);">Einloggen</b></a>
+                    </form>
+                </div>
+            </main>
+			<main class="changepw-page">
+                <div class="pwblock">
+                    <span style="left: 3.5vw;">Passwort vergessen</span>
+                    <form id="reg-form" action="" method="POST">
+                        <input class="login1" placeholder="Neues Passwort" type="password" name="password_pw" id="password_pw" required>
+                        <input class="pass1" placeholder="Passwort wiederholen" type="password" name="password_repeat_pw" id="password_repeat_pw" required>
+                        <div id="changePWBtn" class="btngo btn-register-end">Passwort ändern</div>
+                        <a>Zur Anmeldeseite?<b class="goauth js-btn-back" onclick="showArea(1);">Einloggen</b></a>
+                    </form>
+                </div>
+            </main>
+            <div class="bgshadow"></div>
+        </div>
+    </div>
+
+    <script src="../utils/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../utils/bootstrap.min.js"></script>
+    <script src="../utils/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/640357ffb4.js"></script>
+</body>
+
+<script>
+    $(function() {
+        alt.emit('Client:Login:cefReady');
+        $("#loginBox").fadeTo(1000, 1, function() {
+            $("#loginBox").show();
+        });
+    });
+
+    // Login Button
+    $("#loginBtn").click(function() {
+        var usernameval = $("#username").val().replace(/^\s+|\s+$/g, "");
+        var passvalue = $("#password").val().replace(/^\s+|\s+$/g, "");
+
+        if (usernameval.length < 3) {
+            showError("Der Benutzername muss mindestens drei Zeichen lang sein.");
+            return;
+        }
+
+        if (passvalue.length <= 0) {
+            showError("Du hast kein Passwort eingegeben.");
+            return;
+        }
+
+        alt.emit('Client:Login:ValidataLoginCredentials', usernameval, passvalue);
+    });
+	
+	$("#registerBtn").click(function() {
+        var namevalue = $("#registername").val().replace(/^\s+|\s+$/g, ""),
+            passvalue = $("#registerpassword").val().replace(/^\s+|\s+$/g, ""),
+            passrepvalue = $("#registerpasswordrepeat").val().replace(/^\s+|\s+$/g, ""),
+			alphakeyvalue = $("#registeralphakey").val().replace(/^\s+|\s+$/g, "");
+
+        if (namevalue.length <= 0) {
+            showError("Du hast keinen Usernamen angegeben.");
+            return;
+        }
+
+        if (passvalue.length <= 0) {
+            showError("Du hast kein Passwort eingegeben.");
+            return;
+        }
+
+        if (passrepvalue.length <= 0) {
+            showError("Du hast kein Passwort eingegeben.");
+            return;
+        }
+		
+		if (alphakeyvalue.length <= 0) {
+            showError("Du hast keinen Alphakey eingegeben.");
+            return;
+        }
+
+        alt.emit('Client:Register:sendRegisterDataToServer', namevalue, passvalue, passrepvalue, alphakeyvalue);
+    });
+	
+	$("#changePWBtn").click(function() {
+        var passvalue = $("#password_pw").val().replace(/^\s+|\s+$/g, ""),
+            passrepvalue = $("#password_repeat_pw").val().replace(/^\s+|\s+$/g, "");
+        if (passvalue.length <= 0) {
+            showError("Du hast kein Passwort angegeben.");
+            return;
+        }
+        if (passrepvalue.length <= 0) {
+            showError("Du hast kein Passwort eingegeben.");
+            return;
+        }
+        alt.emit('Client:Login:changePassword', passvalue, passrepvalue);
+		showArea(1);
+		$("#password_pw").val('');
+		$("#password_repeat_pw").val('');
+    });
+
+    function showError(msg) {
+		$("#main_text").text(msg);
+        $("#error").fadeIn(800);
+		$("#error").fadeOut(6000);
+    }
+
+    function fadeOutBrowser() {
+        $("#loginBox").fadeTo(500, 0, function() {
+            $("#loginBox").hide();
+        });
+    }
+	
+	function showArea(type) {
+		if (type == 0)
+		{
+            $(".auth-page").hide();
+			$(".reg-page").show();
+		}
+		else if (type == 1)
+		{
+			$(".reg-page").hide();
+			$(".changepw-page").hide();
+            $(".auth-page").show();
+		}
+		else if (type == 2)
+		{
+			$(".box").hide();
+			$(".auth").hide();
+		}
+		else if (type == 3)
+		{
+			$(".auth-page").hide();
+			$(".changepw-page").show();
+		}
+    }
+	
+	alt.on("Login:showArea", (type) => {
+        showArea(type);
+    });
+	
+    if ('alt' in window) {
+        alt.on("CEF:Login:showError", (msg) => {
+            showError(msg);
+        });
+
+        alt.on("CEF:Login:setStorage", (name, password) => {
+            $("#username").val(`${name}`);
+            $("#password").val(`${password}`);
+        });
+
+        alt.on("CEF:Login:fadeOut", () => {
+            fadeOutBrowser();
+        });
+    }
+</script>
+
+</html>

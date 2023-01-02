@@ -1,0 +1,3 @@
+client-files = [ 'client.mjs', 'marker-streamer.mjs' ]
+client-main = 'client.mjs'
+type = 'js'

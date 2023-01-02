@@ -1,0 +1,15 @@
+debug = true
+description = 'Melde dich auf unserer Webseite MoonV.eu an fuer weitere Informationen.'
+gamemode = 'Roleplay'
+host = '0.0.0.0'
+language = 'de'
+modules = [ 'js-module', 'csharp-module' ]
+name = '[GER] MoonV'
+players = 128
+port = 7788
+resources = [ 'chat', 'es-blip', 'es-helptext', 'es-marker', 'es-object', 'es-ped', 'es-streamer-text', 'discordbot', 'roleplay' ]
+tags = [ 'Roleplay', 'MoonV' ]
+website = 'MoonV.eu'
+
+[csharp-module]
+disableDependencyDownload = true

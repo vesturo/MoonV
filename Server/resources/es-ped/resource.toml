@@ -1,0 +1,3 @@
+client-files = [ 'client.mjs', 'ped-streamer.mjs', 'async-models.mjs' ]
+client-main = 'client.mjs'
+type = 'js'

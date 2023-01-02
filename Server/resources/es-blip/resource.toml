@@ -1,0 +1,3 @@
+client-files = [ 'client.mjs', 'dynamic-blip-streamer.mjs', 'static-blip-streamer.mjs' ]
+client-main = 'client.mjs'
+type = 'js'
